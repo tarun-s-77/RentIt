@@ -1,0 +1,146 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+.nav{
+    flex: 1;
+    text-align: right;
+    
+    
+}
+.nav ul {
+    display: inline-block;
+    list-style-type: none;
+    font-size: large;
+    
+
+}
+.nav ul li {
+
+    display: inline-block;
+    margin: 20px ;
+}
+a{ 
+    text-decoration: none;
+    color: rgb(75, 46, 55);
+}
+.col-1 a i{
+    color: rgb(75, 46, 55);
+
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+   
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+
+}
+.col-1{
+
+    font-family: 'Square Peg', cursive;
+    color: rgb(192, 145, 161);
+    font-size: x-large;
+    font-weight: bolder;
+
+    
+}
+.col-1 h3 {
+    font-weight:bold;
+    color: rgb(200, 191, 231);
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    height: 500px;
+    width: 720px;
+}
+
+.column{
+    float: left;
+  width: 15%;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+.column a{
+    font-family: 'Square Peg';
+    color: rgb(243, 119, 158);
+    font-weight: bolder;
+}
+.column h3 {
+    font-family: 'Square Peg';
+    color: rgb(243, 119, 158);
+    font-size: x-large;
+    
+}
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+  .fab-container{
+    position: absolute;
+    align-items: center;
+    z-index: 1;
+    align-self:center;
+    justify-items: center;
+    left: 650px;
+    height: 100vh;
+    bottom: -450px;
+   
+    }
+     
+    a i{
+        font-size: 40px;
+        justify-content: center;
+        margin: 10px;
+        transition: all 0.4 sec linear;
+        color: rgb(200, 191, 231);
+       
+
+    }
+    a:hover i{
+        transform: scale(1.4);
+    }
+ .column img {justify-content: center;
+    margin: 10px;
+    transition: all 0.4 sec linear;
+
+}
+img:hover i{
+    transform: scale(1.4);
+}
+.btn{
+    display: inline-block;
+    background: rgb(200, 191,231);
+    color:rgb(252, 249, 250);
+    padding: 8px 30px ;
+    margin: 30px 0px ;
+    border-radius: 30px;
+    transition: background 0.5s;
+
+}
+col-1 a {
+    font-size: 40px;
+    justify-content: center;
+    margin: 10px;
+    transition: all 0.4 sec linear;
+    transition: background 0.5s;
+
+
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+    padding:-8px;
+}
