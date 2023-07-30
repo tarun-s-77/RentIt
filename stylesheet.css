@@ -110,6 +110,10 @@ hr{
     color:rgb(110, 153, 189);
     padding: left 500px;;
 }
+.container{ 
+    position: inline;
+    
+}
 #Home span{
     color: crimson;
 
@@ -135,6 +139,31 @@ hr{
         padding: 10px 0;
     }
 }
+#search-box input{
+    background-color:rgb(144, 130, 130) ;
+    border-radius: 40px;
+    padding: auto;
+    text-decoration: none;
+
+
+}  
+.search-hover {
+    border: none;
+    background-color: whitesmoke;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 20px;
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+    transition: all 0.5s;
+  }
+  .search-hover:hover {
+    width: 300px;
+    padding-left: 50px;
+    background-color:rgba(245, 221, 221, 0.7) ;
+  }
 #Home{
     background-image: url(images/Home/parallax.jpg);
     width: 100%;
@@ -300,9 +329,8 @@ footer{
   }
   
   .toggleClass{
-    width: 100px;
-    }
-    
-    .toggleClass .icon{
+width: 100px;
+}
+.toggleClass .icon{
     display: block;
-    }
+}
