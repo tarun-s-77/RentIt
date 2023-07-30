@@ -158,12 +158,12 @@ hr{
     height: 30px;
     padding: 10px;
     transition: all 0.5s;
-  }
-  .search-hover:hover {
+}
+.search-hover:hover {
     width: 300px;
     padding-left: 50px;
-    background-color:rgba(245, 221, 221, 0.7) ;
-  }
+    background-color:rgba(245, 221, 221, 0.7);
+}
 #Home{
     background-image: url(images/Home/parallax.jpg);
     width: 100%;
