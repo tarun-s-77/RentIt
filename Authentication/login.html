@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel = "icon" href="images/logo/logo2.0.jpeg">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <script src="javascript.js"></script>
+    <script src="https://kit.fontawesome.com/16918d4f13.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <center>
+        <form action="" name="myform" onsubmit="return validateform()">
+    <div class="elements">
+        <div class="img">
+            <img src="/images/logo/logo2.png" alt="#" style="margin-bottom: 20px;">
+        </div>
+        
+   <div class="login">
+    <input type="text" class="inputs" name="user" placeholder="&#xf007;  User name" style="font-family:Arial, FontAwesome"; required />
+   </div>
+    <div class="password">
+        <input type="password" class="inputs" name="password" placeholder="&#xf023;  Password" style="font-family:Arial, FontAwesome"; required />
+    </div>
+    <div class="button" >
+        <button type="submit" >Login</button>
+    </div>
+
+    <a href="#">ForgotPassword?</a>
+</div>
+</form>
+</center>
+<script>
+    function validateform(){  
+    var name=document.myform.user.value;  
+    var password=document.myform.password.value;  
+      
+    if (name==null || name==""){  
+      alert("Name can't be blank");  
+      return false;  
+    }else if(password.length<6){  
+      alert("Password must be at least 6 characters long.");  
+      return false;  
+      }  
+    }  
+    </script> 
+</body>
+</html>

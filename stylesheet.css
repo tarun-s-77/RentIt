@@ -36,7 +36,7 @@ h6{
 }
 button{
     font-size: 0.8rem ;
-    font-weight: 700;
+    font-weight: 100;
     outline: none ;
     border: none;
     background-color: #1d1d1d;
@@ -45,11 +45,15 @@ button{
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.3s ease;
+    height: 50px;
 
 }
 button:hover{
     background-color: #3a3833;
 
+}
+.user{
+    background-color: aliceblue;
 }
 hr{
     width: 30px;
@@ -79,6 +83,57 @@ hr{
 
 }
 /*------Mobile-----*/
+ /* Dropdown Button */
+.dropbtn {
+  background-color: rgb(248, 249, 250);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+/* .dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+} */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;
+text-decoration: none;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;} 
+.a{
+    text-decoration: none;
+    color: none;
+}
+
 .navbar-light .navbar-toggler{
     border: none;
     outline: none;
@@ -239,18 +294,6 @@ hr{
     text-align: end;
     font-family: 'Dosis', sans-serif;
 }
-/* .container{
-    text-align: center;
-    font-family: 'Dosis', sans-serif;
-    padding: 50px 0;
-}
-.container hr{
-    color: rgb(233, 152, 177);
-    border-bottom: 3px solid;
-    width: 20px;
-    height: 20px;
-    align-content: center;
-} */
 .star i{
     color: goldenrod;
     font-size: 00.7rem;

@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    color: wheat;
+}
+.elements{
+    padding: 250px;
+    margin-bottom: 5px;
+}
+.inputs{
+    padding: 8px;
+    width:280px ;
+    height: 50px;
+    background-color:whitesmoke;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+button{
+    width: 90px;
+    height: 45px;
+    border:none;
+    margin-bottom: 20px;
+    
+}
+button:hover{
+    transition: 2ms;
+    background-color: rgb(223, 151, 175);
+}
+
