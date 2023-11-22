@@ -3,21 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inpro.css">
     <title>Document</title>
     
 </head>
+<!-- Layout Define -->
 <body>
+
+<div class="main">
     <center>
-    <button id="myButton" class="float-left submit-button" >Get On Rent</button>
-    <button id="myNewButton" class="float-left submit-button" >Give for Rent</button>
+    <div class="container"><center>
+        <img src="./images/Frame/img1.jpeg" alt="#" srcset="">
+        <button id="myButton" >Get On Rent</button>
+    </center>
+    </div>
+    <div class="container"><center>
+        <img src="./images/Frame/img1.jpeg" alt="#" srcset="">
+        <button id="myNewButton" >Give for Rent</button>
+    </center>
+    </div>
 </center>
-</body>
+</div>
+<!-- Scripting -->
 <script type="text/javascript">
     document.getElementById("myButton").onclick = function () {
-        location.href = "Rent.html";
+        location.href = "index.html";
     };
     document.getElementById("myNewButton").onclick = function () {
             location.href = "Rentyour.html";
-    };
+    }; 
 </script>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin>
+</script>  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="rentit_component.js"></script>
+</body>
 </html>

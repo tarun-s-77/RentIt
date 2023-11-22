@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Popping', sans-serif;
+    box-sizing: border-box;
+}
+img{
+    height:120px;
+    width: 120px;
+}
+button{
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background:transparent;
+    color: azure;
+    font-size: 16px;
+    color: rgb(239, 126, 126);
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    padding-top: 150px;
+    
+}
+.container{
+    background: rgb(255, 236, 245);
+    margin: 7px;
+    padding: 50px 50px 200px;
+    width: 15%;
+    height: 50px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+.container img{
+    padding-bottom: 20px;
+}

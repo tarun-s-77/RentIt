@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
-    <script src="javascript.js"></script>
+    <script src="./javascript/javascript.js"></script>
     <script src="https://kit.fontawesome.com/16918d4f13.js" crossorigin="anonymous"></script>
     <script>
       var searchBar = document.getElementById("searchBar");
@@ -51,9 +51,6 @@
                 <a class="nav-link"  href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
@@ -66,20 +63,22 @@
                 <input type="text" class="search-hover" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome "  />
               </li>
               <li class="nav-item">
-                <a href=""><i class="fa-solid fa-bell" style="color: black;"></i></a>
-              </li>
-              <li class="nav-item">
-                <a href=""><i class="fa-solid fa-shopping-bag" style="color: black;"></i></a>
+                <div class="dropdown">
+                  <button class="dropbtn"><i class="fa-solid fa-bell" style="color: black;"></i></button>
+                  <div class="dropdown-content">
+                    <!-- <a href="#">Profile</a>
+                    <a href="/HTML/login-SignUP/loginSignup.html">Login/SignUp</a>
+                    <a href="#">LogOut</a> -->
+                  </div> 
               </li>
               <li class="nav-item">
                 <div class="dropdown">
-                  <a onclick="myFunction()" class="dropbtn"><i  class="fa-solid fa-user" style="color: black;"></i></a>
-                  <div id="myDropdown" class="dropdown-content">
-                    <a href="/Authentication/login.html">SignIn<i class="fa-regular fa-arrow-right-to-bracket fa-sm" style="color: black;"></i></a>
-                    <a href="/Authentication/signup.html">SignUp<i class="fa-regular fa-address-card fa-sm" style="color: black;"></i></a>
-                    <a href="#">LogOut<i class="fa-regular fa-arrow-right-from-bracket fa-sm" style="color: black;"></i></a>
-                  </div>
-                </div> 
+                  <button class="dropbtn"><i  class="fa-solid fa-user" style="color: black;"></i></i></button>
+                  <div class="dropdown-content">
+                    <a href="#">Profile</a>
+                    <a href="/HTML/login-SignUP/loginSignup.html">Login/SignUp</a>
+                    <a href="#">LogOut</a>
+                  </div> 
               </li>
               </li>
             </ul>
